@@ -6,5 +6,6 @@ module Types
 
     field :fetch_barns, resolver: Queries::FetchBarns
     field :fetch_barn, resolver: Queries::FetchBarn
+    field :fetch_employees, resolver: Queries::FetchEmployees
   end
 end
