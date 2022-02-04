@@ -5,5 +5,6 @@ module Types
     # include GraphQL::Types::Relay::HasNodesField
 
     field :fetch_barns, resolver: Queries::FetchBarns
+    field :fetch_barn, resolver: Queries::FetchBarn
   end
 end
