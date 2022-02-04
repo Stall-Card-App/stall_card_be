@@ -5,5 +5,5 @@ require 'factory_bot_rails'
 end 
 
 (1..10).each do |i|
-  FactoryBot.create(:employee, barn_id: i)
+  FactoryBot.create(:employee, admin: true, barn_id: i)
 end 
