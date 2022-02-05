@@ -10,6 +10,8 @@ module Types
     field :fetch_employee, resolver: Queries::FetchEmployee
     field :fetch_owners, resolver: Queries::FetchOwners
     field :fetch_owner, resolver: Queries::FetchOwner
+    field :fetch_vets, resolver: Queries::FetchVets
+    field :fetch_vet, resolver: Queries::FetchVet
 
   end
 end

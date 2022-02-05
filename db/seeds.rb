@@ -11,3 +11,7 @@ end
 10.times do
   FactoryBot.create(:owner)
 end
+
+10.times do
+  FactoryBot.create(:vet)
+end
