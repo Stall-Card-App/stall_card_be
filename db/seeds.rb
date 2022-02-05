@@ -15,3 +15,7 @@ end
 10.times do
   FactoryBot.create(:vet)
 end
+
+10.times do
+  FactoryBot.create(:farrier)
+end
