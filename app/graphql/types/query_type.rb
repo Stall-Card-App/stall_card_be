@@ -9,5 +9,7 @@ module Types
     field :fetch_employees, resolver: Queries::FetchEmployees
     field :fetch_employee, resolver: Queries::FetchEmployee
     field :fetch_owners, resolver: Queries::FetchOwners
+    field :fetch_owner, resolver: Queries::FetchOwner
+
   end
 end
