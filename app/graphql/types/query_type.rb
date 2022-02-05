@@ -8,5 +8,6 @@ module Types
     field :fetch_barn, resolver: Queries::FetchBarn
     field :fetch_employees, resolver: Queries::FetchEmployees
     field :fetch_employee, resolver: Queries::FetchEmployee
+    field :fetch_owners, resolver: Queries::FetchOwners
   end
 end
