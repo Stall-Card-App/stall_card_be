@@ -14,5 +14,7 @@ module Types
     field :fetch_vet, resolver: Queries::FetchVet
     field :fetch_farriers, resolver: Queries::FetchFarriers
     field :fetch_farrier, resolver: Queries::FetchFarrier
+    field :fetch_horses, resolver: Queries::FetchHorses
+
   end
 end

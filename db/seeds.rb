@@ -19,3 +19,7 @@ end
 10.times do
   FactoryBot.create(:farrier)
 end
+
+10.times do
+  FactoryBot.create(:horse)
+end
