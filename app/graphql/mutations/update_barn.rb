@@ -1,5 +1,5 @@
 module Mutations
-  class AddBarn < Mutations::BaseMutation
+  class UpdateBarn < Mutations::BaseMutation
     argument :params, Types::Input::BarnInputType, required: true
 
     field :barn, Types::BarnType, null: false
@@ -9,7 +9,8 @@ module Mutations
       require 'pry'; binding.pry
 
       begin
-        barn = Barn.create!(barn_params)
+        barn = Barn.find(params[:id])
+        barn.update!(barn_params)
 
         { barn: barn }
       rescue ActiveRecord::RecordInvalid => e
