@@ -13,5 +13,7 @@ module Types
     field :destroy_vet, mutation: Mutations::DestroyVet
 
     field :add_farrier, mutation: Mutations::AddFarrier
+    field :update_farrier, mutation: Mutations::UpdateFarrier
+    field :destroy_farrier, mutation: Mutations::DestroyFarrier
   end
 end
