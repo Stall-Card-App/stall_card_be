@@ -1,16 +1,14 @@
 module Mutations
-  class UpdateBarn < Mutations::BaseMutation
+  class DestroyBarn < Mutations::BaseMutation
     argument :id, Integer, required: true 
-    argument :params, Types::Input::BarnInputType, required: true
 
     field :barn, Types::BarnType, null: false
 
-    def resolve(id:, params:)
-      barn_params = Hash params
+    def resolve(id:)
 
       begin
         barn = Barn.find(id)
-        barn.update!(barn_params)
+        barn.destroy
 
         { barn: barn }
       rescue ActiveRecord::RecordInvalid => e
