@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/jacobyarborough/turing/4module/projects/stall_card_be/app/models/barn.rb": {
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/models/barn.rb": {
         "lines": [
           1,
           1,
@@ -9,14 +9,14 @@
           null
         ]
       },
-      "/Users/jacobyarborough/turing/4module/projects/stall_card_be/app/models/application_record.rb": {
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/models/application_record.rb": {
         "lines": [
           1,
           1,
           null
         ]
       },
-      "/Users/jacobyarborough/turing/4module/projects/stall_card_be/app/models/employee.rb": {
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/models/employee.rb": {
         "lines": [
           1,
           1,
@@ -24,7 +24,43 @@
           null
         ]
       },
-      "/Users/jacobyarborough/turing/4module/projects/stall_card_be/app/mailers/application_mailer.rb": {
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/models/farrier.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/models/horse.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/models/owner.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/models/vet.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/mailers/application_mailer.rb": {
         "lines": [
           0,
           0,
@@ -34,7 +70,25 @@
         "branches": {
         }
       },
-      "/Users/jacobyarborough/turing/4module/projects/stall_card_be/app/graphql/types/node_type.rb": {
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/graphql/types/employee_type.rb": {
+        "lines": [
+          null,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/graphql/types/node_type.rb": {
         "lines": [
           0,
           0,
@@ -47,7 +101,7 @@
         "branches": {
         }
       },
-      "/Users/jacobyarborough/turing/4module/projects/stall_card_be/app/graphql/types/base_field.rb": {
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/graphql/types/base_field.rb": {
         "lines": [
           0,
           0,
@@ -58,151 +112,7 @@
         "branches": {
         }
       },
-      "/Users/jacobyarborough/turing/4module/projects/stall_card_be/app/graphql/types/base_input_object.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/jacobyarborough/turing/4module/projects/stall_card_be/app/graphql/types/base_enum.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/jacobyarborough/turing/4module/projects/stall_card_be/app/graphql/types/base_interface.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/jacobyarborough/turing/4module/projects/stall_card_be/app/graphql/types/base_connection.rb": {
-        "lines": [
-          0,
-          0,
-          null,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/jacobyarborough/turing/4module/projects/stall_card_be/app/graphql/types/base_edge.rb": {
-        "lines": [
-          0,
-          0,
-          null,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/jacobyarborough/turing/4module/projects/stall_card_be/app/graphql/types/base_scalar.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/jacobyarborough/turing/4module/projects/stall_card_be/app/graphql/types/mutation_type.rb": {
-        "lines": [
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/jacobyarborough/turing/4module/projects/stall_card_be/app/graphql/types/query_type.rb": {
-        "lines": [
-          0,
-          0,
-          null,
-          0,
-          0,
-          null,
-          null,
-          null,
-          null,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/jacobyarborough/turing/4module/projects/stall_card_be/app/graphql/types/base_argument.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/jacobyarborough/turing/4module/projects/stall_card_be/app/graphql/types/base_object.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/jacobyarborough/turing/4module/projects/stall_card_be/app/graphql/types/base_union.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/jacobyarborough/turing/4module/projects/stall_card_be/app/graphql/mutations/base_mutation.rb": {
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/graphql/types/input/owner_input_type.rb": {
         "lines": [
           0,
           0,
@@ -216,7 +126,506 @@
         "branches": {
         }
       },
-      "/Users/jacobyarborough/turing/4module/projects/stall_card_be/app/graphql/stall_card_be_schema.rb": {
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/graphql/types/input/employee_input_type.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/graphql/types/input/vet_input_type.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/graphql/types/input/farrier_input_type.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/graphql/types/input/barn_input_type.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/graphql/types/base_input_object.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/graphql/types/base_enum.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/graphql/types/base_interface.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/graphql/types/barn_type.rb": {
+        "lines": [
+          null,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/graphql/types/base_connection.rb": {
+        "lines": [
+          0,
+          0,
+          null,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/graphql/types/base_edge.rb": {
+        "lines": [
+          0,
+          0,
+          null,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/graphql/types/base_scalar.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/graphql/types/mutation_type.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/graphql/types/vet_type.rb": {
+        "lines": [
+          null,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/graphql/types/query_type.rb": {
+        "lines": [
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/graphql/types/base_argument.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/graphql/types/base_object.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/graphql/types/farrier_type.rb": {
+        "lines": [
+          null,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/graphql/types/base_union.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/graphql/types/owner_type.rb": {
+        "lines": [
+          null,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/graphql/mutations/add_barn.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/graphql/mutations/base_mutation.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/graphql/queries/fetch_vet.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/graphql/queries/fetch_farriers.rb": {
+        "lines": [
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/graphql/queries/base_query.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/graphql/queries/fetch_owner.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/graphql/queries/fetch_employee.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/graphql/queries/fetch_barns.rb": {
+        "lines": [
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/graphql/queries/fetch_owners.rb": {
+        "lines": [
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/graphql/queries/fetch_farrier.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/graphql/queries/fetch_vets.rb": {
+        "lines": [
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/graphql/queries/fetch_barn.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/graphql/queries/fetch_employees.rb": {
+        "lines": [
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/graphql/stall_card_be_schema.rb": {
         "lines": [
           0,
           0,
@@ -273,7 +682,7 @@
         "branches": {
         }
       },
-      "/Users/jacobyarborough/turing/4module/projects/stall_card_be/app/jobs/application_job.rb": {
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/jobs/application_job.rb": {
         "lines": [
           0,
           0
@@ -281,7 +690,7 @@
         "branches": {
         }
       },
-      "/Users/jacobyarborough/turing/4module/projects/stall_card_be/app/controllers/application_controller.rb": {
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/controllers/application_controller.rb": {
         "lines": [
           0,
           0
@@ -289,7 +698,7 @@
         "branches": {
         }
       },
-      "/Users/jacobyarborough/turing/4module/projects/stall_card_be/app/controllers/graphql_controller.rb": {
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/controllers/graphql_controller.rb": {
         "lines": [
           0,
           null,
@@ -345,7 +754,7 @@
         "branches": {
         }
       },
-      "/Users/jacobyarborough/turing/4module/projects/stall_card_be/app/channels/application_cable/connection.rb": {
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/channels/application_cable/connection.rb": {
         "lines": [
           0,
           0,
@@ -355,7 +764,7 @@
         "branches": {
         }
       },
-      "/Users/jacobyarborough/turing/4module/projects/stall_card_be/app/channels/application_cable/channel.rb": {
+      "/Users/stephaniemhelm/stall_card/stall_card_be/app/channels/application_cable/channel.rb": {
         "lines": [
           0,
           0,
@@ -366,6 +775,6 @@
         }
       }
     },
-    "timestamp": 1644008339
+    "timestamp": 1644089176
   }
 }
