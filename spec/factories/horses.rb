@@ -13,9 +13,5 @@ FactoryBot.define do
     supplements { ["pellets", "copper", "zinc", "manganese", "iodine"].sample }
     turnout { "Day/Time" }
     blanketing_temp { Faker::Number.between(from: 0, to: 50) }
-    barn { Faker::Number.between(from: 1, to: 10) }
-    owner { Faker::Number.between(from: 1, to: 10) }
-    vet { Faker::Number.between(from: 1, to: 10) }
-    farrier { Faker::Number.between(from: 1, to: 10) }
   end
 end

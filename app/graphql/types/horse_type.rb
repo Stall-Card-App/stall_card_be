@@ -16,10 +16,11 @@ module Types
     field :supplements, String
     field :turnout, String
     field :blanketing_temp, Integer
-    # field :barn_id, [Types::BarnType], null: true
-    # field :owner_id, [Types::OwnerType], null: true
-    # field :vet_id, [Types::VetType], null: true
-    # field :farrier_id, [Types::FarrierType], null: true
+    field :barn_id, Integer
+    field :owner_id, Integer
+    field :vet_id, Integer
+    field :farrier_id, Integer
+    
     field :created_at, GraphQL::Types::ISO8601DateTime, null: false
     field :updated_at, GraphQL::Types::ISO8601DateTime, null: false
 
