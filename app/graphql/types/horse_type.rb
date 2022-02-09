@@ -24,10 +24,10 @@ module Types
     field :created_at, GraphQL::Types::ISO8601DateTime, null: false
     field :updated_at, GraphQL::Types::ISO8601DateTime, null: false
 
-    field :barn, [Types::BarnType], null: true
-    field :owner, [Types::OwnerType], null: true
-    field :vet, [Types::VetType], null: true
-    field :farrier, [Types::FarrierType], null: true
+    field :barns, [Types::BarnType], null: true
+    field :owners, [Types::OwnerType], null: true
+    field :vets, [Types::VetType], null: true
+    field :farriers, [Types::FarrierType], null: true
 
   end
 end
