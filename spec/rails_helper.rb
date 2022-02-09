@@ -82,3 +82,8 @@ VCR.configure do |config|
   config.default_cassette_options = { re_record_interval: 7.days }
   config.allow_http_connections_when_no_cassette = true
 end
+
+RSpec.configure do |config|
+  config.include FactoryBot::Syntax::Methods
+  # different code
+end
