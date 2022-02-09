@@ -1,3 +1,5 @@
+require 'factory_bot'
+
 10.times do
   FactoryBot.create(:barn)
 end
