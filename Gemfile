@@ -31,13 +31,14 @@ gem 'bootsnap', '>= 1.1.0', require: false
 # use faraday for api calls 
 gem 'faraday'
 
+gem 'factory_bot'
+gem 'faker'
+
 group :development, :test do
   gem 'pry'
   gem 'rspec-rails'
   gem 'figaro'
   gem 'simplecov'
-  gem 'factory_bot'
-  gem 'faker'
 end
 
 group :development do
