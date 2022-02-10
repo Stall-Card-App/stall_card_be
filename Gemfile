@@ -31,6 +31,9 @@ gem 'rack-cors'
 # use faraday for api calls 
 gem 'faraday'
 
+# Use jsonapi to serialize api output 
+gem 'jsonapi-serializer'
+
 group :development, :test do
   gem 'pry'
   gem 'rspec-rails'

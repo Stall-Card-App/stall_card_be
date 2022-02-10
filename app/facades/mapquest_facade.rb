@@ -7,10 +7,5 @@ class MapquestFacade
       lat_long[:lng] = results[:results][0][:locations][0][:latLng][:lng]
       lat_long
     end 
-
-    def get_roadtrip(start_city, end_city)
-      results = MapquestService.get_roadtrip_details(start_city, end_city)
-      Trip.new(results, start_city, end_city)
-    end
   end 
 end 
