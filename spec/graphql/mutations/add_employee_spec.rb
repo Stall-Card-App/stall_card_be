@@ -5,14 +5,15 @@ module Mutations
     describe '.resolve' do
       it 'can create an employee' do
         barn = create(:barn)
-        employee = create(:employee, admin: true, barn_id: barn.id)
+        
+        employee = AddEmployee.new(field: nil, object: nil, context: {})
 
-        post '/graphql', params: { params: { name: employee.name, phone_number: employee.phone_number, barn_id: barn.id }}
+        new_employee = employee.resolve(params: { name: "Employee One", phone_number: "970-808-3455", admin: true, barn_id: barn.id } )
 
-        expect(employee.reload).to have_attributes(
-          'id'              => employee.id,
-          'name'            => employee.name,
-          'phone_number'    => employee.phone_number,
+        expect(new_employee[:employee]).to have_attributes(
+          'id'              => new_employee[:employee].id,
+          'name'            => "Employee One",
+          'phone_number'    => "970-808-3455",
           'admin'           => true,
           'barn_id'         => barn.id
         )

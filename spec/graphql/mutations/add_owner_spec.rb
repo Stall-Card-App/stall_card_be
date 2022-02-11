@@ -4,14 +4,15 @@ module Mutations
   RSpec.describe AddOwner, type: :request do
     describe '.resolve' do
       it 'can create an owner' do
-        owner = create(:owner)
-        
-        post '/graphql', params: { params: { name: owner.name, phone_number: owner.phone_number }}
 
-        expect(owner.reload).to have_attributes(
-          'id'              => owner.id,
-          'name'            => owner.name,
-          'phone_number'    => owner.phone_number
+        owner = AddOwner.new(field: nil, object: nil, context: {})
+
+        new_owner = owner.resolve(params: { name: "New Owner", phone_number: "970-818-3303" } )
+
+        expect(new_owner[:owner]).to have_attributes(
+          'id'              => new_owner[:owner].id,
+          'name'            => "New Owner",
+          'phone_number'    => "970-818-3303"
         )
       end
     end
