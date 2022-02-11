@@ -4,14 +4,15 @@ module Mutations
   RSpec.describe AddVet, type: :request do
     describe '.resolve' do
       it 'can create a vet' do
-        vet = create(:vet)
+        #vet = create(:vet)
+        vet = AddVet.new(field: nil, object: nil, context: {})
+        #post '/graphql', params: { params: { name: "New Vet", phone_number: "970-808-3421" }}
+        new_vet = vet.resolve(params: { name: "New Vet", phone_number: "970-808-3421" } )
 
-        post '/graphql', params: { params: { name: vet.name, phone_number: vet.phone_number }}
-
-        expect(vet.reload).to have_attributes(
-          'id'              => vet.id,
-          'name'            => vet.name,
-          'phone_number'    => vet.phone_number
+        expect(new_vet[:vet]).to have_attributes(
+          'id'              => new_vet[:vet].id,
+          'name'            => "New Vet",
+          'phone_number'    => "970-808-3421"
         )
       end
     end
