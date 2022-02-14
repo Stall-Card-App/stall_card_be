@@ -20,14 +20,7 @@ module Types
     field :owner_id, Integer
     field :vet_id, Integer
     field :farrier_id, Integer
-    
     field :created_at, GraphQL::Types::ISO8601DateTime, null: false
     field :updated_at, GraphQL::Types::ISO8601DateTime, null: false
-
-    field :barn, [Types::BarnType], null: true
-    field :owner, [Types::OwnerType], null: true
-    field :vet, [Types::VetType], null: true
-    field :farrier, [Types::FarrierType], null: true
-
   end
 end
