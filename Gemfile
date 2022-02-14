@@ -28,7 +28,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 gem 'rack-cors'
 
-# use faraday for api calls 
+# use faraday for api calls
 gem 'faraday'
 
 # Use jsonapi to serialize api output 
@@ -52,16 +52,15 @@ group :development do
 end
 
 
-group :test do 
+group :test do
   gem 'webmock'
   gem 'vcr'
   gem 'shoulda-matchers'
-end 
+  gem 'rspec-graphql_matchers'
+end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # use garphql to handle api endpoints
 gem 'graphql'
-
-
