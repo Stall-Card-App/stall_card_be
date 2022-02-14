@@ -4,8 +4,8 @@ Rails.application.config.middleware.insert_before 0, Rack::Cors do
     resource '/graphql',
       :headers => :any,
       :methods => [:post]
-    # resource '/users',
-    #   headers: :any,
-    #   methods: [:get, :post, :put, :patch, :delete, :options, :head]
+    resource '/forecasts',
+      headers: :any,
+      methods: [:get]
   end
 end
