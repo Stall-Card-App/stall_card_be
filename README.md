@@ -31,3 +31,8 @@ localhost:3000
 
 - `GET /api/v1/forecast?location=`                 :uses location parameter to consume and expose the forecast for the location
 - `POST /graphql`                                  :exposes requested data for barns, employees, horses, owners, vets, farriers
+
+## Database Schema
+
+<img width="601" alt="Screen Shot 2022-02-14 at 9 28 54 AM" src="https://user-images.githubusercontent.com/81917337/153910131-dee749ad-32e3-47e4-b44b-c148c8d3a120.png">
+
