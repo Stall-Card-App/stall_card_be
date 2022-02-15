@@ -18,6 +18,12 @@ module Queries
         'name'            => query_horse.name
       )
     end
+    it 'returns an error for id does not exist' do
+      empty_horse = FetchHorse.new(field: nil, object: nil, context: {})
+      query_horse = empty_horse.resolve(id: 15)
+
+      expect(query_horse).to eq(GraphQL::ExecutionError.new('Horse does not exist.'))
+    end
   end
  end
 end
