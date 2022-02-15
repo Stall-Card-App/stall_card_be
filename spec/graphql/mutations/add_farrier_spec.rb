@@ -15,6 +15,14 @@ module Mutations
           'phone_number'    => "970-818-5555"
         )
       end
+      it 'has a sad path error' do
+        farrier = AddFarrier.new(field: nil, object: nil, context: {})
+
+        new_farrier = farrier.resolve(params: { name: "New Farrier" } )
+
+        expect(new_farrier).to eq(GraphQL::ExecutionError.new("Invalid attributes for Farrier: Phone number can't be blank"))
+
+      end
     end
   end
 end

@@ -37,6 +37,21 @@ module Mutations
           'farrier_id'      => farrier.id
         )
       end
+      it 'has a sad path error' do
+        barn = create(:barn)
+        owner = create(:owner)
+        vet = create(:vet)
+        farrier = create(:farrier)
+        horse = AddHorse.new(field: nil, object: nil, context: {})
+
+        new_horse = horse.resolve(params: { name: "Cookie", stall_number: 7, age: 15,
+                                  breed: "haflinger", sex: "M", color: "gray", markings: "no markings",
+                                  notes: "outside all day", am_feed: "hay", pm_feed: "hay",
+                                  supplements: "all supplements", turnout: "8 am", blanketing_temp: 25,
+                                  owner_id: owner.id, vet_id: vet.id, farrier_id: farrier.id } )
+
+        expect(new_horse).to eq(GraphQL::ExecutionError.new("Invalid attributes for Horse: Barn must exist, Barn can't be blank"))
+      end
     end
   end
 end

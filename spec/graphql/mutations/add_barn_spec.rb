@@ -14,6 +14,13 @@ module Mutations
           'name'            => "New Barn"
         )
       end
+      it 'has a sad path error' do
+        barn = AddBarn.new(field: nil, object: nil, context: {})
+
+        new_barn = barn.resolve(params: { } )
+
+        expect(new_barn).to eq(GraphQL::ExecutionError.new("Invalid attributes for Barn: Name can't be blank"))
+      end
     end
   end
 end
