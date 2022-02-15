@@ -16,6 +16,7 @@ module Types
     field :supplements, String
     field :turnout, String
     field :blanketing_temp, Integer
+    field :photo, String
     field :barn_id, Integer
     field :owner_id, Integer
     field :vet_id, Integer

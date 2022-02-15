@@ -14,6 +14,7 @@ module Types
       argument :supplements, String, required: true
       argument :turnout, String, required: true
       argument :blanketing_temp, Integer, required: true
+      argument :photo, String, required: true
       argument :barn_id, Integer, required: true
       argument :owner_id, Integer, required: true
       argument :farrier_id, Integer, required: true 
