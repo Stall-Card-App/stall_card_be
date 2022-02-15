@@ -6,13 +6,15 @@ module Mutations
       it 'can destroy a farrier' do
         farrier = create(:farrier)
 
-        expect(Farrier.count).to eq(1)
+        total_farriers = Farrier.all.count
 
         empty_farrier = DestroyFarrier.new(field: nil, object: nil, context: {})
 
         destroy_farrier = empty_farrier.resolve(id: farrier.id)
 
-        expect(Farrier.count).to eq(0)
+        new_total = Farrier.all.count
+
+        expect(new_total).to eq(total_farriers - 1)
       end
     end
   end

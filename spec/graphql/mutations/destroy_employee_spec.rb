@@ -7,13 +7,15 @@ module Mutations
         barn = create(:barn)
         employee = create(:employee, admin: true, barn_id: barn.id)
 
-        expect(Employee.count).to eq(1)
+        total_employees = Employee.all.count
 
         empty_employee = DestroyEmployee.new(field: nil, object: nil, context: {})
 
         destroy_employee = empty_employee.resolve(id: employee.id)
 
-        expect(Employee.count).to eq(0)
+        new_total = Employee.all.count
+
+        expect(new_total).to eq(total_employees - 1)
       end
     end
   end

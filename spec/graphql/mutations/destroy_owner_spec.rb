@@ -6,13 +6,15 @@ module Mutations
       it 'can destroy an owner' do
         owner = create(:owner)
 
-        expect(Owner.count).to eq(1)
+        total_owners = Owner.all.count
 
         empty_owner = DestroyOwner.new(field: nil, object: nil, context: {})
 
         destroy_owner = empty_owner.resolve(id: owner.id)
 
-        expect(Owner.count).to eq(0)
+        new_total = Owner.all.count
+        
+        expect(new_total).to eq(total_owners - 1)
       end
     end
   end

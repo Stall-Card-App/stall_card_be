@@ -6,13 +6,15 @@ module Mutations
       it 'can destroy a vet' do
         vet = create(:vet)
 
-        expect(Vet.count).to eq(1)
+        total_vets = Vet.all.count
 
         empty_vet = DestroyVet.new(field: nil, object: nil, context: {})
 
         destroy_vet = empty_vet.resolve(id: vet.id)
 
-        expect(Vet.count).to eq(0)
+        new_total = Vet.all.count
+
+        expect(new_total).to eq(total_vets - 1)
       end
     end
   end

@@ -10,13 +10,15 @@ module Mutations
         farrier = create(:farrier)
         horse = create(:horse, barn_id: barn.id, owner_id: owner.id, vet_id: vet.id, farrier_id: farrier.id)
 
-        expect(Horse.count).to eq(1)
+        total_horses = Horse.all.count
 
         empty_horse = DestroyHorse.new(field: nil, object: nil, context: {})
 
         destroy_horse = empty_horse.resolve(id: horse.id)
 
-        expect(Horse.count).to eq(0)
+        new_total = Horse.all.count
+
+        expect(new_total).to eq(total_horses - 1)
       end
     end
   end

@@ -5,13 +5,16 @@ module Mutations
     describe '.resolve' do
       it 'can destroy a barn' do
         barn = create(:barn)
-        expect(Barn.count).to eq(1)
+
+        total_barns = Barn.all.count
 
         empty_barn = DestroyBarn.new(field: nil, object: nil, context: {})
 
         destroy_barn = empty_barn.resolve(id: barn.id)
 
-        expect(Barn.count).to eq(0)
+        new_total = Barn.all.count
+        
+        expect(new_total).to eq(total_barns - 1)
       end
     end
   end
