@@ -16,7 +16,7 @@ module Queries
     end
     it 'returns an error for id does not exist' do
       empty_farrier = FetchFarrier.new(field: nil, object: nil, context: {})
-      query_farrier = empty_farrier.resolve(id: 10)
+      query_farrier = empty_farrier.resolve(id: 1008765)
 
       expect(query_farrier).to eq(GraphQL::ExecutionError.new('Farrier does not exist.'))
     end

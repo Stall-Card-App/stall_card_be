@@ -17,7 +17,7 @@ module Queries
     end
     it 'returns an error for id does not exist' do
       empty_employee = FetchEmployee.new(field: nil, object: nil, context: {})
-      query_employee = empty_employee.resolve(id: 5)
+      query_employee = empty_employee.resolve(id: 1008765)
 
       expect(query_employee).to eq(GraphQL::ExecutionError.new('Employee does not exist.'))
 
