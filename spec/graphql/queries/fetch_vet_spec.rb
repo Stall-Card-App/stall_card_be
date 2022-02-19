@@ -16,7 +16,7 @@ module Queries
     end
     it 'returns an error for id does not exist' do
       empty_vet = FetchVet.new(field: nil, object: nil, context: {})
-      query_vet = empty_vet.resolve(id: 5)
+      query_vet = empty_vet.resolve(id: 1008765)
 
       expect(query_vet).to eq(GraphQL::ExecutionError.new('Vet does not exist.'))
     end
