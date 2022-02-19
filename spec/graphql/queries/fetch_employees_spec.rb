@@ -11,8 +11,9 @@ module Queries
 
         empty_employees = FetchEmployees.new(field: nil, object: nil, context: {})
         query_employees = empty_employees.resolve
+        total_employees = Employee.all.count
 
-        expect(query_employees.count).to eq(3)
+        expect(query_employees.count).to eq(total_employees)
       end
     end
   end

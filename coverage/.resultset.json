@@ -1,12 +1,11 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/mutations/update_barn.rb": {
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/mutations/add_barn.rb": {
         "lines": [
           1,
           1,
           1,
-          1,
           null,
           1,
           null,
@@ -15,11 +14,10 @@
           null,
           null,
           2,
-          2,
           null,
           1,
           1,
-          0,
+          1,
           null,
           null,
           null,
@@ -138,6 +136,786 @@
           null
         ]
       },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/mutations/add_employee.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          2,
+          null,
+          null,
+          2,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/types/input/employee_input_type.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/mutations/add_farrier.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          2,
+          null,
+          null,
+          2,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/types/input/farrier_input_type.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/types/farrier_type.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/mutations/add_horse.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          2,
+          null,
+          null,
+          2,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/types/input/horse_input_type.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/types/horse_type.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/mutations/add_owner.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          2,
+          null,
+          null,
+          2,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/types/input/owner_input_type.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/types/owner_type.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/mutations/add_vet.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          2,
+          null,
+          null,
+          2,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/types/input/vet_input_type.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/types/vet_type.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/mutations/destroy_barn.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/mutations/destroy_employee.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/mutations/destroy_farrier.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/mutations/destroy_horse.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/mutations/destroy_owner.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/mutations/destroy_vet.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/mutations/update_barn.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/mutations/update_employee.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/mutations/update_farrier.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/mutations/update_horse.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/mutations/update_owner.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/mutations/update_vet.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/queries/fetch_barn.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          2,
+          null,
+          1,
+          null,
+          0,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/queries/base_query.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/queries/fetch_barns.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/queries/fetch_employee.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          2,
+          null,
+          1,
+          null,
+          0,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/queries/fetch_employees.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/queries/fetch_farrier.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          2,
+          null,
+          1,
+          null,
+          0,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/queries/fetch_farriers.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/queries/fetch_horse.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          2,
+          null,
+          1,
+          null,
+          0,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/queries/fetch_horses.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/queries/fetch_owner.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          2,
+          null,
+          1,
+          null,
+          0,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/queries/fetch_owners.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/queries/fetch_vet.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          2,
+          null,
+          1,
+          null,
+          0,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/queries/fetch_vets.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/models/barn.rb": {
         "lines": [
           1,
@@ -154,75 +932,230 @@
           null
         ]
       },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/mailers/application_mailer.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
       "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/models/employee.rb": {
         "lines": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
+          1,
+          1,
+          1,
+          null
+        ]
       },
       "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/models/farrier.rb": {
         "lines": [
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/models/vet.rb": {
-        "lines": [
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/models/owner.rb": {
-        "lines": [
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
+          1,
+          1,
+          null
+        ]
       },
       "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/models/horse.rb": {
         "lines": [
-          0,
-          0,
-          0,
-          0,
-          0,
+          1,
+          1,
+          1,
+          1,
+          1,
           null,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/models/owner.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/models/vet.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/controllers/forecasts_controller.rb": {
+        "lines": [
+          1,
+          1,
+          4,
+          2,
+          null,
+          2,
+          2,
+          2,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/facades/mapquest_facade.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/services/mapquest_service.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          2,
+          2,
+          null,
+          null,
+          1,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/facades/open_weather_facade.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          2,
+          2,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/services/open_weather_service.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          2,
+          2,
+          null,
+          null,
+          1,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/poros/weather.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null,
+          1,
+          2,
+          2,
+          2,
+          16,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          null,
+          null,
+          2,
+          null,
+          null,
+          1,
+          2,
+          2,
+          2,
+          96,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          null,
+          null,
+          2,
+          null,
+          null
+        ]
       },
       "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/serializers/forecast_serializer.rb": {
         "lines": [
-          0,
-          0,
+          1,
+          1,
           null,
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/mailers/application_mailer.rb": {
+        "lines": [
           0,
           0,
           0,
@@ -237,93 +1170,6 @@
           0,
           0,
           null,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/types/input/owner_input_type.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/types/input/employee_input_type.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/types/input/vet_input_type.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/types/input/horse_input_type.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/types/input/farrier_input_type.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0,
-          0,
           0,
           0,
           0
@@ -349,38 +1195,6 @@
           0,
           0,
           null,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/types/horse_type.rb": {
-        "lines": [
-          null,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
           0,
           0,
           0
@@ -430,23 +1244,6 @@
         "branches": {
         }
       },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/types/vet_type.rb": {
-        "lines": [
-          null,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
       "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/types/query_type.rb": {
         "lines": [
           0,
@@ -473,727 +1270,9 @@
         "branches": {
         }
       },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/types/farrier_type.rb": {
-        "lines": [
-          null,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
       "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/types/base_union.rb": {
         "lines": [
           0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/types/owner_type.rb": {
-        "lines": [
-          null,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/mutations/add_barn.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          null,
-          0,
-          null,
-          0,
-          0,
-          null,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/mutations/update_vet.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          null,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/mutations/update_farrier.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          null,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/mutations/destroy_farrier.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          null,
-          0,
-          null,
-          0,
-          null,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/mutations/update_employee.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          null,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/mutations/add_employee.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          null,
-          0,
-          null,
-          0,
-          0,
-          null,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/mutations/add_horse.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          null,
-          0,
-          null,
-          0,
-          0,
-          null,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/mutations/update_owner.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          null,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/mutations/destroy_owner.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          null,
-          0,
-          null,
-          0,
-          null,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/mutations/add_farrier.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          null,
-          0,
-          null,
-          0,
-          0,
-          null,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/mutations/destroy_vet.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          null,
-          0,
-          null,
-          0,
-          null,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/mutations/destroy_employee.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          null,
-          0,
-          null,
-          0,
-          null,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/mutations/add_owner.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          null,
-          0,
-          null,
-          0,
-          0,
-          null,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/mutations/update_horse.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          null,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/mutations/add_vet.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          null,
-          0,
-          null,
-          0,
-          0,
-          null,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/mutations/destroy_horse.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          null,
-          0,
-          null,
-          0,
-          null,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/mutations/destroy_barn.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          null,
-          0,
-          null,
-          0,
-          null,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/queries/fetch_vet.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/queries/fetch_farriers.rb": {
-        "lines": [
-          0,
-          0,
-          null,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/queries/base_query.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/queries/fetch_owner.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/queries/fetch_employee.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/queries/fetch_barns.rb": {
-        "lines": [
-          0,
-          0,
-          null,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/queries/fetch_horse.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/queries/fetch_horses.rb": {
-        "lines": [
-          0,
-          0,
-          null,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/queries/fetch_owners.rb": {
-        "lines": [
-          0,
-          0,
-          null,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/queries/fetch_farrier.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/queries/fetch_vets.rb": {
-        "lines": [
-          0,
-          0,
-          null,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/queries/fetch_barn.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/graphql/queries/fetch_employees.rb": {
-        "lines": [
-          0,
-          0,
-          null,
-          0,
-          null,
           0,
           0,
           0,
@@ -1260,136 +1339,7 @@
         "branches": {
         }
       },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/facades/open_weather_facade.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/facades/mapquest_facade.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/poros/weather.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
       "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/jobs/application_job.rb": {
-        "lines": [
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/controllers/forecasts_controller.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/controllers/application_controller.rb": {
         "lines": [
           0,
           0
@@ -1453,58 +1403,6 @@
         "branches": {
         }
       },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/services/open_weather_service.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/services/mapquest_service.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
       "/Users/stephaniemhelm/Stall-Card-App/stall_card_be/app/channels/application_cable/connection.rb": {
         "lines": [
           0,
@@ -1526,6 +1424,6 @@
         }
       }
     },
-    "timestamp": 1644967501
+    "timestamp": 1645298426
   }
 }

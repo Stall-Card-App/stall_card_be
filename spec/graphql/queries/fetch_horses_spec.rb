@@ -13,8 +13,9 @@ module Queries
 
         empty_horses = FetchHorses.new(field: nil, object: nil, context: {})
         query_horses = empty_horses.resolve
+        total_horses = Horse.all.count
 
-        expect(query_horses.count).to eq(3)
+        expect(query_horses.count).to eq(total_horses)
       end
     end
   end

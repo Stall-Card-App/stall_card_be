@@ -10,8 +10,9 @@ module Queries
 
         empty_farriers = FetchFarriers.new(field: nil, object: nil, context: {})
         query_farriers = empty_farriers.resolve
+        total_farriers = Farrier.all.count
 
-        expect(query_farriers.count).to eq(3)
+        expect(query_farriers.count).to eq(total_farriers)
       end
     end
   end
