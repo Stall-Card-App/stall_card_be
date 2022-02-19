@@ -10,8 +10,9 @@ module Queries
 
         empty_barns = FetchBarns.new(field: nil, object: nil, context: {})
         query_barns = empty_barns.resolve
+        total_barns = Barn.all.count
 
-        expect(query_barns.count).to eq(3)
+        expect(query_barns.count).to eq(total_barns)
       end
     end
   end

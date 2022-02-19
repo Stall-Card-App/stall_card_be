@@ -10,8 +10,9 @@ module Queries
 
         empty_owners = FetchOwners.new(field: nil, object: nil, context: {})
         query_owners = empty_owners.resolve
+        total_owners = Owner.all.count
 
-        expect(query_owners.count).to eq(3)
+        expect(query_owners.count).to eq(total_owners)
       end
     end
   end

@@ -10,8 +10,9 @@ module Queries
 
         empty_vets = FetchVets.new(field: nil, object: nil, context: {})
         query_vets = empty_vets.resolve
+        total_vets = Vet.all.count
 
-        expect(query_vets.count).to eq(3)
+        expect(query_vets.count).to eq(total_vets)
       end
     end
   end
